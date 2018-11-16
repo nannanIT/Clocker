@@ -15,6 +15,15 @@
 		3C358A25219E63140087BA26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C358A24219E63140087BA26 /* main.m */; };
 		3C358A2F219E63140087BA26 /* ClockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C358A2E219E63140087BA26 /* ClockerTests.m */; };
 		3C358A3A219E63140087BA26 /* ClockerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C358A39219E63140087BA26 /* ClockerUITests.m */; };
+		3C358A4F219E839C0087BA26 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C358A4B219E839C0087BA26 /* ClockView.m */; };
+		3C358A50219E839C0087BA26 /* ClockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C358A4D219E839C0087BA26 /* ClockModel.m */; };
+		3C358A51219E839C0087BA26 /* ClockCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C358A4E219E839C0087BA26 /* ClockCollectionViewCell.m */; };
+		3C358A60219E84220087BA26 /* bliss-roman-aluminium-clock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C358A5A219E84220087BA26 /* bliss-roman-aluminium-clock.jpg */; };
+		3C358A61219E84220087BA26 /* clock-min-background_.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C358A5B219E84220087BA26 /* clock-min-background_.png */; };
+		3C358A62219E84220087BA26 /* clock-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C358A5C219E84220087BA26 /* clock-background.png */; };
+		3C358A63219E84220087BA26 /* clock-sec-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C358A5D219E84220087BA26 /* clock-sec-background.png */; };
+		3C358A64219E84220087BA26 /* clock-hour-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C358A5E219E84220087BA26 /* clock-hour-background.png */; };
+		3C358A65219E84220087BA26 /* clock-min-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C358A5F219E84220087BA26 /* clock-min-background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,19 @@
 		3C358A35219E63140087BA26 /* ClockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C358A39219E63140087BA26 /* ClockerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockerUITests.m; sourceTree = "<group>"; };
 		3C358A3B219E63140087BA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C358A48219E839C0087BA26 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		3C358A49219E839C0087BA26 /* ClockView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ClockView-Prefix.pch"; sourceTree = "<group>"; };
+		3C358A4A219E839C0087BA26 /* ClockCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockCollectionViewCell.h; sourceTree = "<group>"; };
+		3C358A4B219E839C0087BA26 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
+		3C358A4C219E839C0087BA26 /* ClockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockModel.h; sourceTree = "<group>"; };
+		3C358A4D219E839C0087BA26 /* ClockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockModel.m; sourceTree = "<group>"; };
+		3C358A4E219E839C0087BA26 /* ClockCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockCollectionViewCell.m; sourceTree = "<group>"; };
+		3C358A5A219E84220087BA26 /* bliss-roman-aluminium-clock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bliss-roman-aluminium-clock.jpg"; sourceTree = "<group>"; };
+		3C358A5B219E84220087BA26 /* clock-min-background_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-min-background_.png"; sourceTree = "<group>"; };
+		3C358A5C219E84220087BA26 /* clock-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-background.png"; sourceTree = "<group>"; };
+		3C358A5D219E84220087BA26 /* clock-sec-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-sec-background.png"; sourceTree = "<group>"; };
+		3C358A5E219E84220087BA26 /* clock-hour-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-hour-background.png"; sourceTree = "<group>"; };
+		3C358A5F219E84220087BA26 /* clock-min-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-min-background.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +123,8 @@
 		3C358A14219E63110087BA26 /* Clocker */ = {
 			isa = PBXGroup;
 			children = (
+				3C358A66219E86A70087BA26 /* QNYGKit */,
+				3C358A47219E83550087BA26 /* Clock */,
 				3C358A15219E63110087BA26 /* AppDelegate.h */,
 				3C358A16219E63110087BA26 /* AppDelegate.m */,
 				3C358A18219E63110087BA26 /* ViewController.h */,
@@ -130,6 +154,41 @@
 				3C358A3B219E63140087BA26 /* Info.plist */,
 			);
 			path = ClockerUITests;
+			sourceTree = "<group>";
+		};
+		3C358A47219E83550087BA26 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				3C358A59219E840B0087BA26 /* images */,
+				3C358A4A219E839C0087BA26 /* ClockCollectionViewCell.h */,
+				3C358A4E219E839C0087BA26 /* ClockCollectionViewCell.m */,
+				3C358A4C219E839C0087BA26 /* ClockModel.h */,
+				3C358A4D219E839C0087BA26 /* ClockModel.m */,
+				3C358A49219E839C0087BA26 /* ClockView-Prefix.pch */,
+				3C358A48219E839C0087BA26 /* ClockView.h */,
+				3C358A4B219E839C0087BA26 /* ClockView.m */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		3C358A59219E840B0087BA26 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3C358A5A219E84220087BA26 /* bliss-roman-aluminium-clock.jpg */,
+				3C358A5C219E84220087BA26 /* clock-background.png */,
+				3C358A5E219E84220087BA26 /* clock-hour-background.png */,
+				3C358A5B219E84220087BA26 /* clock-min-background_.png */,
+				3C358A5F219E84220087BA26 /* clock-min-background.png */,
+				3C358A5D219E84220087BA26 /* clock-sec-background.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		3C358A66219E86A70087BA26 /* QNYGKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QNYGKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +294,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C358A64219E84220087BA26 /* clock-hour-background.png in Resources */,
+				3C358A62219E84220087BA26 /* clock-background.png in Resources */,
+				3C358A65219E84220087BA26 /* clock-min-background.png in Resources */,
+				3C358A61219E84220087BA26 /* clock-min-background_.png in Resources */,
+				3C358A63219E84220087BA26 /* clock-sec-background.png in Resources */,
+				3C358A60219E84220087BA26 /* bliss-roman-aluminium-clock.jpg in Resources */,
 				3C358A22219E63140087BA26 /* LaunchScreen.storyboard in Resources */,
 				3C358A1F219E63140087BA26 /* Assets.xcassets in Resources */,
 				3C358A1D219E63110087BA26 /* Main.storyboard in Resources */,
@@ -263,7 +328,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C358A1A219E63110087BA26 /* ViewController.m in Sources */,
+				3C358A4F219E839C0087BA26 /* ClockView.m in Sources */,
 				3C358A25219E63140087BA26 /* main.m in Sources */,
+				3C358A51219E839C0087BA26 /* ClockCollectionViewCell.m in Sources */,
+				3C358A50219E839C0087BA26 /* ClockModel.m in Sources */,
 				3C358A17219E63110087BA26 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
