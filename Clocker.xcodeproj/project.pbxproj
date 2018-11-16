@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C358A17219E63110087BA26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C358A16219E63110087BA26 /* AppDelegate.m */; };
+		3C358A1A219E63110087BA26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C358A19219E63110087BA26 /* ViewController.m */; };
+		3C358A1D219E63110087BA26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C358A1B219E63110087BA26 /* Main.storyboard */; };
+		3C358A1F219E63140087BA26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C358A1E219E63140087BA26 /* Assets.xcassets */; };
+		3C358A22219E63140087BA26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C358A20219E63140087BA26 /* LaunchScreen.storyboard */; };
+		3C358A25219E63140087BA26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C358A24219E63140087BA26 /* main.m */; };
+		3C358A2F219E63140087BA26 /* ClockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C358A2E219E63140087BA26 /* ClockerTests.m */; };
+		3C358A3A219E63140087BA26 /* ClockerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C358A39219E63140087BA26 /* ClockerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C358A2B219E63140087BA26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C358A0A219E63110087BA26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C358A11219E63110087BA26;
+			remoteInfo = Clocker;
+		};
+		3C358A36219E63140087BA26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C358A0A219E63110087BA26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C358A11219E63110087BA26;
+			remoteInfo = Clocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C358A12219E63110087BA26 /* Clocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C358A15219E63110087BA26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C358A16219E63110087BA26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C358A18219E63110087BA26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C358A19219E63110087BA26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C358A1C219E63110087BA26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C358A1E219E63140087BA26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C358A21219E63140087BA26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C358A23219E63140087BA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C358A24219E63140087BA26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C358A2A219E63140087BA26 /* ClockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C358A2E219E63140087BA26 /* ClockerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockerTests.m; sourceTree = "<group>"; };
+		3C358A30219E63140087BA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C358A35219E63140087BA26 /* ClockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C358A39219E63140087BA26 /* ClockerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockerUITests.m; sourceTree = "<group>"; };
+		3C358A3B219E63140087BA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C358A0F219E63110087BA26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C358A27219E63140087BA26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C358A32219E63140087BA26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C358A09219E63110087BA26 = {
+			isa = PBXGroup;
+			children = (
+				3C358A14219E63110087BA26 /* Clocker */,
+				3C358A2D219E63140087BA26 /* ClockerTests */,
+				3C358A38219E63140087BA26 /* ClockerUITests */,
+				3C358A13219E63110087BA26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C358A13219E63110087BA26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C358A12219E63110087BA26 /* Clocker.app */,
+				3C358A2A219E63140087BA26 /* ClockerTests.xctest */,
+				3C358A35219E63140087BA26 /* ClockerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C358A14219E63110087BA26 /* Clocker */ = {
+			isa = PBXGroup;
+			children = (
+				3C358A15219E63110087BA26 /* AppDelegate.h */,
+				3C358A16219E63110087BA26 /* AppDelegate.m */,
+				3C358A18219E63110087BA26 /* ViewController.h */,
+				3C358A19219E63110087BA26 /* ViewController.m */,
+				3C358A1B219E63110087BA26 /* Main.storyboard */,
+				3C358A1E219E63140087BA26 /* Assets.xcassets */,
+				3C358A20219E63140087BA26 /* LaunchScreen.storyboard */,
+				3C358A23219E63140087BA26 /* Info.plist */,
+				3C358A24219E63140087BA26 /* main.m */,
+			);
+			path = Clocker;
+			sourceTree = "<group>";
+		};
+		3C358A2D219E63140087BA26 /* ClockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C358A2E219E63140087BA26 /* ClockerTests.m */,
+				3C358A30219E63140087BA26 /* Info.plist */,
+			);
+			path = ClockerTests;
+			sourceTree = "<group>";
+		};
+		3C358A38219E63140087BA26 /* ClockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C358A39219E63140087BA26 /* ClockerUITests.m */,
+				3C358A3B219E63140087BA26 /* Info.plist */,
+			);
+			path = ClockerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C358A11219E63110087BA26 /* Clocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C358A3E219E63140087BA26 /* Build configuration list for PBXNativeTarget "Clocker" */;
+			buildPhases = (
+				3C358A0E219E63110087BA26 /* Sources */,
+				3C358A0F219E63110087BA26 /* Frameworks */,
+				3C358A10219E63110087BA26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clocker;
+			productName = Clocker;
+			productReference = 3C358A12219E63110087BA26 /* Clocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C358A29219E63140087BA26 /* ClockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C358A41219E63140087BA26 /* Build configuration list for PBXNativeTarget "ClockerTests" */;
+			buildPhases = (
+				3C358A26219E63140087BA26 /* Sources */,
+				3C358A27219E63140087BA26 /* Frameworks */,
+				3C358A28219E63140087BA26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C358A2C219E63140087BA26 /* PBXTargetDependency */,
+			);
+			name = ClockerTests;
+			productName = ClockerTests;
+			productReference = 3C358A2A219E63140087BA26 /* ClockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C358A34219E63140087BA26 /* ClockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C358A44219E63140087BA26 /* Build configuration list for PBXNativeTarget "ClockerUITests" */;
+			buildPhases = (
+				3C358A31219E63140087BA26 /* Sources */,
+				3C358A32219E63140087BA26 /* Frameworks */,
+				3C358A33219E63140087BA26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C358A37219E63140087BA26 /* PBXTargetDependency */,
+			);
+			name = ClockerUITests;
+			productName = ClockerUITests;
+			productReference = 3C358A35219E63140087BA26 /* ClockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C358A0A219E63110087BA26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Zhengjie Huan";
+				TargetAttributes = {
+					3C358A11219E63110087BA26 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3C358A29219E63140087BA26 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3C358A11219E63110087BA26;
+					};
+					3C358A34219E63140087BA26 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3C358A11219E63110087BA26;
+					};
+				};
+			};
+			buildConfigurationList = 3C358A0D219E63110087BA26 /* Build configuration list for PBXProject "Clocker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C358A09219E63110087BA26;
+			productRefGroup = 3C358A13219E63110087BA26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C358A11219E63110087BA26 /* Clocker */,
+				3C358A29219E63140087BA26 /* ClockerTests */,
+				3C358A34219E63140087BA26 /* ClockerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C358A10219E63110087BA26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C358A22219E63140087BA26 /* LaunchScreen.storyboard in Resources */,
+				3C358A1F219E63140087BA26 /* Assets.xcassets in Resources */,
+				3C358A1D219E63110087BA26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C358A28219E63140087BA26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C358A33219E63140087BA26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C358A0E219E63110087BA26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C358A1A219E63110087BA26 /* ViewController.m in Sources */,
+				3C358A25219E63140087BA26 /* main.m in Sources */,
+				3C358A17219E63110087BA26 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C358A26219E63140087BA26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C358A2F219E63140087BA26 /* ClockerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C358A31219E63140087BA26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C358A3A219E63140087BA26 /* ClockerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C358A2C219E63140087BA26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C358A11219E63110087BA26 /* Clocker */;
+			targetProxy = 3C358A2B219E63140087BA26 /* PBXContainerItemProxy */;
+		};
+		3C358A37219E63140087BA26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C358A11219E63110087BA26 /* Clocker */;
+			targetProxy = 3C358A36219E63140087BA26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C358A1B219E63110087BA26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C358A1C219E63110087BA26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C358A20219E63140087BA26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C358A21219E63140087BA26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C358A3C219E63140087BA26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C358A3D219E63140087BA26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C358A3F219E63140087BA26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Clocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hzj.Clocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C358A40219E63140087BA26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Clocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hzj.Clocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C358A42219E63140087BA26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hzj.ClockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clocker.app/Clocker";
+			};
+			name = Debug;
+		};
+		3C358A43219E63140087BA26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hzj.ClockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clocker.app/Clocker";
+			};
+			name = Release;
+		};
+		3C358A45219E63140087BA26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hzj.ClockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Clocker;
+			};
+			name = Debug;
+		};
+		3C358A46219E63140087BA26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ClockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hzj.ClockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Clocker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C358A0D219E63110087BA26 /* Build configuration list for PBXProject "Clocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C358A3C219E63140087BA26 /* Debug */,
+				3C358A3D219E63140087BA26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C358A3E219E63140087BA26 /* Build configuration list for PBXNativeTarget "Clocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C358A3F219E63140087BA26 /* Debug */,
+				3C358A40219E63140087BA26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C358A41219E63140087BA26 /* Build configuration list for PBXNativeTarget "ClockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C358A42219E63140087BA26 /* Debug */,
+				3C358A43219E63140087BA26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C358A44219E63140087BA26 /* Build configuration list for PBXNativeTarget "ClockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C358A45219E63140087BA26 /* Debug */,
+				3C358A46219E63140087BA26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C358A0A219E63110087BA26 /* Project object */;
+}
